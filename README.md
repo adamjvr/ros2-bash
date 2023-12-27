@@ -1,5 +1,5 @@
 # ros2-bash
-Bash Script for automating the installation of ROS2 on Ubuntu systems released under GPL V3 License 
+Bash Script for automating the installation of ROS2 on Ubuntu systems released under GPL V3 License! 
 This script is a work in progress and is intended to be used by new users. The script automates the installation of ROS2 and all of its software dependencies. It is intended to run after a fresh install of Ubuntu 22.04 LTS and automates the updating of the system as part of the complete process. 
 
 To install ROS2 (Robot Operating System 2) on Ubuntu you can use the Bash script found in this repository. This script assumes you are installing ROS2 Humble Hawksbill, but you can modify it for other versions as needed.
