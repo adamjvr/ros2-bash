@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the ROS2 distribution
-ROS_DISTRO=foxy
+ROS_DISTRO=humble
 
 # Set the locale
 sudo locale-gen en_US en_US.UTF-8
