@@ -59,7 +59,7 @@ sudo apt upgrade
 sudo apt install -y ros-$ROS_DISTRO-desktop
 
 # Install ROS 2 Development tools
-sudo apt install -y ros-$ROS_DISTRO-desktop-development
+sudo apt install -y ros-dev-tools
 
 # Source the ROS 2 setup file
 source /opt/ros/$ROS_DISTRO/setup.bash
