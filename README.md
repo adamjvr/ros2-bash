@@ -6,15 +6,23 @@ To install ROS2 (Robot Operating System 2) on Ubuntu you can use the Bash script
 
 Instructions:
 
-1. clone reposistory to your home folder 
+1. Install git on your system:
+```bash
+sudo apt-get install git
+```
 
-2. Make script executable by navigating to the source folder of the repository directory and using the following command:
+2. Clone this repository to your home folder!
+```bash
+git clone https://github.com/adamjvr/ros2-bash.git
+```
+ 
+3. Make script executable by navigating to the source folder of the repository directory and using the following command:
 
 ```bash
 chmod +x install_ros2.sh
 ```
 
-3. Run the script:
+4. Run the script:
 
 ```bash
 ./install_ros2.sh
