@@ -41,6 +41,9 @@ sudo add-apt-repository universe
 # Update and install curl
 sudo apt update && sudo apt install -y curl
 
+# Install Python3 pip/pip3
+sudo apt install -y python3-pip
+
 # Add the ROS 2 repository key
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
@@ -60,7 +63,7 @@ sudo apt install -y ros-$ROS_DISTRO-desktop-development
 source /opt/ros/$ROS_DISTRO/setup.bash
 
 # Install additional dependencies
-sudo apt install -y python3-argcomplete python3-colcon-common-extensions python3-pip
+sudo apt install -y python3-argcomplete
 
 # Install ROS 2 tools
 pip3 install -U argcomplete
